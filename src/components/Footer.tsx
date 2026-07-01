@@ -8,9 +8,9 @@ export default function Footer() {
           <div className="md-col-span-1" style={{ gridColumn: "span 2" }}>
             <Link to="/" style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 16, textDecoration: "none" }}>
               <div style={{ width: 32, height: 32, background: "var(--brand)", borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <span style={{ color: "#fff", fontWeight: 800, fontSize: 16 }}>S</span>
+                <span style={{ color: "#fff", fontWeight: 800, fontSize: 16 }}>L</span>
               </div>
-              <span style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: 22, fontWeight: 800 }}>SANSUI</span>
+              <span style={{ fontFamily: "var(--font-display)", color: "#fff", fontSize: 22, fontWeight: 800 }}>LUMEN</span>
             </Link>
             <p style={{ fontSize: 14, lineHeight: 1.6, maxWidth: 320 }}>Experience premium home entertainment and cooling solutions with advanced Japanese technology. Visual excellence and reliable performance, engineered to last.</p>
           </div>
@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
         <div style={{ marginTop: 64, paddingTop: 32, borderTop: "1px solid #1e293b", display: "flex", flexDirection: "column", alignItems: "center", gap: 16, textAlign: "center" }}
           className="md-flex-row">
-          <p style={{ fontSize: 12 }}>&copy; 2026 SANSUI Electronics. All rights reserved.</p>
+          <p style={{ fontSize: 12 }}>&copy; 2026 LUMEN Electronics. All rights reserved.</p>
           <div style={{ display: "flex", gap: 24, marginLeft: "auto" }}>
             <span style={{ fontSize: 12 }}>Privacy Policy</span>
             <span style={{ fontSize: 12 }}>Terms of Service</span>

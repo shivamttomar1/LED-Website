@@ -6,6 +6,7 @@ import { getProduct } from "../data/api";
 export default function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState<any>(null);
+  const [activeImage, setActiveImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState("");
   const [selectedColor, setSelectedColor] = useState("");
 
@@ -33,12 +34,12 @@ export default function ProductDetail() {
           {/* Left Column */}
           <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }}>
             <div style={{ aspectRatio: "1/1", background: "#f8fafc", borderRadius: 16, overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center" }}>
-              <img src={product.images[0]} alt={product.name} style={{ width: "100%", height: "100%", objectFit: "contain", mixBlendMode: "multiply" }} />
+              <img src={product.images[activeImage]} alt={product.name} style={{ width: "100%", height: "100%", objectFit: "contain", mixBlendMode: "multiply" }} />
             </div>
             {/* Thumbnails */}
             <div style={{ display: "flex", gap: 12, marginTop: 16 }}>
               {product.images.map((img: string, idx: number) => (
-                <div key={idx} style={{ width: 80, height: 80, border: idx === 0 ? "2px solid var(--ink)" : "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", cursor: "pointer", background: "#f8fafc", padding: 4 }}>
+                <div key={idx} onClick={() => setActiveImage(idx)} style={{ width: 80, height: 80, border: idx === activeImage ? "2px solid var(--brand)" : "1px solid #e2e8f0", borderRadius: 8, overflow: "hidden", cursor: "pointer", background: "#f8fafc", padding: 4, transition: "all 0.2s" }}>
                   <img src={img} style={{ width: "100%", height: "100%", objectFit: "contain", mixBlendMode: "multiply" }} />
                 </div>
               ))}

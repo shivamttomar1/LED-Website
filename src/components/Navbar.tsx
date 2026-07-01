@@ -12,9 +12,9 @@ export default function Navbar() {
       <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 24px", height: 80, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <Link to="/" style={{ display: "flex", alignItems: "center", gap: 8, textDecoration: "none", color: "inherit" }}>
           <div style={{ width: 32, height: 32, background: "var(--brand)", borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ color: "#fff", fontWeight: 800, fontSize: 16 }}>S</span>
+            <span style={{ color: "#fff", fontWeight: 800, fontSize: 16 }}>L</span>
           </div>
-          <span style={{ fontFamily: "var(--font-display)", fontSize: 22, fontWeight: 800, letterSpacing: "0.025em", color: "var(--brand)" }}>SANSUI</span>
+          <span style={{ fontFamily: "var(--font-display)", fontSize: 22, fontWeight: 800, letterSpacing: "0.025em", color: "var(--brand)" }}>LUMEN</span>
         </Link>
  
         <div className="md-flex" style={{ display: "none", gap: 32, alignItems: "center" }}>

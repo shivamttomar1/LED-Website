@@ -16,7 +16,7 @@ export default function Hero() {
     <section style={styles.section}>
       <div style={styles.bgImg}>
         <div style={styles.overlay} />
-        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1920" alt="SANSUI QLED TV" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.8 }} />
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=1920" alt="LUMEN QLED TV" style={{ width: "100%", height: "100%", objectFit: "cover", opacity: 0.8 }} />
         <div style={styles.glow} />
       </div>
 
@@ -33,7 +33,7 @@ export default function Hero() {
 
           <motion.p initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             style={{ marginTop: 24, fontSize: 18, color: "#cbd5e1", maxWidth: 480, lineHeight: 1.6 }}>
-            Immerse yourself in breathtaking 4K clarity with the all-new SANSUI QLED Smart TV. Powered by Google TV and Dolby Vision.
+            Immerse yourself in breathtaking 4K clarity with the all-new LUMEN QLED Smart TV. Powered by Google TV and Dolby Vision.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}

@@ -18,7 +18,7 @@ export interface Product {
 export const localProducts: Product[] = [
   {
     id: "s-tv-01",
-    name: "SANSUI 55\" 4K Ultra HD Smart QLED TV",
+    name: "LUMEN 55\" 4K Ultra HD Smart QLED TV",
     description: "Experience breathtaking colors and stunning clarity with our flagship QLED TV. Integrated with Dolby Vision and Atmos for a true cinematic experience.",
     price: 34990,
     originalPrice: 42990,
@@ -48,7 +48,7 @@ export const localProducts: Product[] = [
   },
   {
     id: "s-ac-01",
-    name: "SANSUI 1.5 Ton 5 Star Inverter Split AC",
+    name: "LUMEN 1.5 Ton 5 Star Inverter Split AC",
     description: "Stay cool while saving energy with our advanced inverter technology. Features Turbo Cool and 4-way swing for uniform cooling in every corner.",
     price: 36990,
     originalPrice: 45990,
@@ -78,7 +78,7 @@ export const localProducts: Product[] = [
   },
   {
     id: "s-tv-02",
-    name: "SANSUI 43\" Full HD Smart Android TV",
+    name: "LUMEN 43\" Full HD Smart Android TV",
     description: "The perfect balance of performance and value. Enjoy your favorite streaming apps in crisp Full HD with dynamic contrast enhancement.",
     price: 19990,
     originalPrice: 24990,
@@ -108,7 +108,7 @@ export const localProducts: Product[] = [
   },
   {
     id: "s-ac-02",
-    name: "SANSUI 1 Ton 3 Star Window AC",
+    name: "LUMEN 1 Ton 3 Star Window AC",
     description: "Compact and powerful window AC perfect for small rooms. Easy to install and provides instant chill with high energy efficiency.",
     price: 24990,
     originalPrice: 29990,
@@ -138,8 +138,8 @@ export const localProducts: Product[] = [
   },
   {
     id: "s-tv-03",
-    name: "SANSUI 65\" 4K OLED Premium Smart TV",
-    description: "Deepest blacks and infinite contrast. The SANSUI OLED TV redefines home entertainment with pixel-level dimming and an ultra-slim profile.",
+    name: "LUMEN 65\" 4K OLED Premium Smart TV",
+    description: "Deepest blacks and infinite contrast. The LUMEN OLED TV redefines home entertainment with pixel-level dimming and an ultra-slim profile.",
     price: 119990,
     originalPrice: 149990,
     category: "smart-tvs",
@@ -168,7 +168,7 @@ export const localProducts: Product[] = [
   },
   {
     id: "s-wm-01",
-    name: "SANSUI 8kg Fully Automatic Front Load",
+    name: "LUMEN 8kg Fully Automatic Front Load",
     description: "Gentle on clothes, tough on stains. Features Inverter Motor and Steam Wash technology for hygienic cleaning.",
     price: 28990,
     originalPrice: 34990,
